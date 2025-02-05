@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+<title>--</title>
+</head>
+<body style="background-color:white">
+<h1>
+<a href="index.html" style="color:red">home</a>|
+ <a href="product.html" style="color:green">product</a>|
+ <a href="contact.html" style="color:red">contact</a>|
+ <a href="download.html" style="color:red">download</a>|
+ <a href="gambar.html" style="color:red">foto</a>|
+ </h1>
+ <div>
+
+<form action="prosessForm.php" method="GET">
+<!-- letakkan field di sini -->
+<fieldset>
+<legend><h1>Formulir Pendaftaan Siswa XII-3 Anak Hebat</h1></legend>
+<table>
+	<tr>
+		<td>Nama Siswa</td>
+		<td>:</td>
+		<td><input type="name" name="TempatLahir"/> <input type="date" name="tanggal" /></td>
+	</tr>
+	<tr>
+		<td>Tempat/Tanggal Lahir</td>
+		<td>:</td>
+		<td><input type="name" name="TempatLahir"/> <input type="date" name="tanggal" /></td>
+	</tr>
+	<tr>
+		<td>Agama</td>
+		<td>:</td>
+		<td><select name="Agama">
+			<option value="Islam"> islam</option>
+			<option value="Kristen"> kristen</option>
+			<option value="Katolik"> Katolik</option>
+			<option value="Budha"> Budha</option>
+			<option value="Hindu"> Hindu</option>
+		</select></td>
+	</tr>
+	<tr>
+		<td>Alamat</td>
+		<td>:</td>
+		<td><textarea name="Komentar" rows="4" cols="50" ></textarea> </td>
+	</tr>
+	<tr>
+		<td>No Telp/Hp</td>
+		<td>:</td>
+		<td><input type="number" name="number"/></td>
+	</tr><tr>
+		<td>Jenis Kelamin</td>
+		<td>:</td>
+		<td><input type="radio" name="Jenis Kelamin"/> Pria
+			<input type="radio" name="Jenis Kelamin"/> Wanita</td>
+	</tr><tr>
+		<td>Hobi</td>
+		<td>:</td>
+		<td><input type="checkbox" name="Hobi" /> Membaca </input>
+		<td><input type="checkbox" name="Hobi" /> Menulis </input>
+		<td><input type="checkbox" name="Hobi" /> Olahraga </input></td>
+	</tr><tr>
+		<td>Pas foto</td>
+		<td>:</td>
+		<td><input type="file" name="Foto" /></td>
+	</tr><tr>
+		<td><input type="submit" name="submit" value="SUBMIT"/></td>
+		<td></td>
+		<td></td>
+	</tr>
+</table>
+</fieldset>
+</form>
+</body>
+</html>
